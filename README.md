@@ -33,7 +33,7 @@ pip install -r requirements.txt
 ## How to Use 🚀
 1. Clone this repository:
    ```bash
-   git clone <repository-url>
+   git clone https://github.com/li-yang-cn/wechat-ai-chatbot.git
    cd wechat-ai-chatbot
    ```
 2. Edit the configuration in the script:
@@ -81,4 +81,7 @@ This project is open-source and licensed under the MIT License.
 初始化时配置读取监控问题的坐标点，输入框的坐标点。
 每隔1秒获取消息位置的颜色detect_color(location)，判断是否有变化，如果有变化，则copy_question(location)。检查上一个问题是否相同，如果相同则循环监控；如果不同，则try function call_ai(url,question)，得到answer之后，paste_answer(answer)。然后循环监控。
 请帮我先实现框架，再实现详细的代码设计。
+```
+```text
+我要把这个项目发布到Github上，请帮我实现中英文双语的README.MD文档。
 ```

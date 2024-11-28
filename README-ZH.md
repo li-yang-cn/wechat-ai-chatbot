@@ -33,7 +33,7 @@ pip install -r requirements.txt
 ## 使用方法 🚀
 1. 克隆此仓库：
    ```bash
-   git clone <repository-url>
+   git clone https://github.com/li-yang-cn/wechat-ai-chatbot.git
    cd wechat-ai-chatbot
    ```
 2. 编辑脚本中的配置：
